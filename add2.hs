@@ -1,5 +1,4 @@
-import System.IO
-import Control.Monad
+import System.IO (readFile, appendFile)
 
 readInt :: String -> Int
 readInt x = read x :: Int
